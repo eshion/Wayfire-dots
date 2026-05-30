@@ -1,3 +1,5 @@
 .config/clipse/
 .config/mozilla/firefox/lf1oed1o.default-release/
 .config/mozilla/firefox/
+.config/go/telemetry/
+.config/ibus/bus/
