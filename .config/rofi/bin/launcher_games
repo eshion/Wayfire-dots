@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+
+# ================= 配置区域 =================
+ROMS_BASE_DIR="$HOME/Games/roms"
+COLLECTIONS=("arcade" "famicom")
+THEME_PATH="$HOME/.config/rofi/powermenu/game_launcher.rasi"
+# ============================================
+
+# 增加一个主循环，实现“返回”后回到根节点
+while true; do
+
+# --- 1. 顶部横向展示游戏分组 (已增加分组封面支持) ---
+selected_collection=$(for col in "${COLLECTIONS[@]}"; do
+    cover_img="$ROMS_BASE_DIR/$col/media/cover.png"
+    if [ -f "$cover_img" ]; then
+        printf "%s\0icon\x1f%s\n" "$col" "$cover_img"
+    else
+        printf "%s\n" "$col"
+    fi
+done | rofi -dmenu \
+    -i -show-icons \
+    -p "GAMES:" \
+    -theme "$THEME_PATH")
+
+[ -z "$selected_collection" ] && exit 0
+
+# --- 2. 加载选中的游戏分组内容 ---
+CURRENT_ROM_DIR="$ROMS_BASE_DIR/$selected_collection"
+CONFIG_FILE="$CURRENT_ROM_DIR/metadata.pegasus.txt"
+
+[ ! -f "$CONFIG_FILE" ] && { rofi -e "未找到配置文件: $CONFIG_FILE"; continue; }
+cd "$CURRENT_ROM_DIR" || continue
+
+# --- 3. 获取全局启动命令 ---
+global_launch=$(tr -d '\r' < "$CONFIG_FILE" | grep "^launch:" | head -n 1 | sed 's/^launch:[ \t]*//')
+
+# --- 4. 解析列表并直接启动 Rofi (增加了“返回”选项) ---
+# 注意：我们在 menu_list 的最前面加了一行 "⬅ 返回"
+selected_game=$( { echo -e "⬅ 返回"; tr -d '\r' < "$CONFIG_FILE" | awk -v dir="$CURRENT_ROM_DIR" '
+    function print_item() {
+        if (name != "") {
+            if (icon == "" && file_path != "") {
+                n = split(file_path, path_parts, "/")
+                base = path_parts[n]
+                sub(/\.[^.]+$/, "", base)
+                icon = dir "/media/box2dfront/" base ".png"
+            }
+            if (icon != "") {
+                if (icon ~ /^\.\//) { icon = dir "/" substr(icon, 3) }
+                else if (icon !~ /^\//) { icon = dir "/" icon }
+                printf "%s\0icon\x1f%s\n", name, icon
+            } else {
+                printf "%s\n", name
+            }
+        }
+    }
+    /^game:[ \t]*/ { print_item(); sub(/^game:[ \t]*/, ""); name=$0; icon=""; file_path=""; next }
+    /^file:[ \t]*/ { sub(/^file:[ \t]*/, ""); sub(/[ \t]+$/, ""); file_path=$0; next }
+    /^assets.boxfront:[ \t]*/ { sub(/^assets.boxfront:[ \t]*/, ""); icon=$0; next }
+    END { print_item() }
+'; } | rofi -dmenu -i -show-icons -theme "$THEME_PATH" -p "🔍")
+
+# 如果点击了“返回”或关闭菜单，处理逻辑
+if [ -z "$selected_game" ] || [ "$selected_game" == "⬅ 返回" ]; then
+    continue # 跳回循环开头，即回到“顶部横向展示游戏分组”
+fi
+
+# --- 5. 提取游戏文件 ---
+game_file=$(tr -d '\r' < "$CONFIG_FILE" | awk -v target="$selected_game" '
+    $0 == ("game: " target) { found=1; next }
+    found && /^game:/ { exit }
+    found && /^file:/ { sub(/^file:[ \t]*/, ""); print; exit }
+')
+
+[ -z "$game_file" ] && { rofi -e "错误: 未能提取到游戏路径！"; continue; }
+
+# --- 6. 替换占位符并执行 ---
+file_basename=$(basename "$game_file" | sed 's/\.[^.]*$//')
+final_cmd=$(echo "$global_launch" | sed -e "s|{file.path}|$game_file|g" -e "s|{file.basename}|$file_basename|g")
+
+eval "$final_cmd"
+break # 游戏启动后退出循环
+done

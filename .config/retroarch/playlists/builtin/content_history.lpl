@@ -1,0 +1,252 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/home/eshion/Games/roms/arcade/dino.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/pwrinst2.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/aliencha.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/martmast.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/crysking.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/arkretrn.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/kov2.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/s1945ii.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/kof98.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/ddpdojt.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/kov3.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/raidendx.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/sailormn.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/mslug6.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/vasara.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/captcomm.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/dragnblz.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/famicom/150-in-1.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fceumm_libretro.so",
+      "core_name": "FCEUmm",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/samsh5sp.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/raiden2.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/orlegndcjhcs.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/orlegend.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/bangbead.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/lastblad.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/pktgaldx.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/sfa2.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/3wonders.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/raiden.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/samsho2.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/eshion/Games/roms/arcade/kof98umh.zip",
+      "label": "",
+      "core_path": "/home/eshion/Games/libretro/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

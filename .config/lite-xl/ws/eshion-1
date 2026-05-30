@@ -1,0 +1,1 @@
+return { path = "/home/eshion", documents = {["type"]="leaf",["views"]={[1]={["scroll"]={["x"]=0,["y"]=0},["type"]="doc",["text"]=false,["selection"]={[1]=19,[2]=33,[3]=19,[4]=28},["filename"]=".config/lite-xl/init.lua",["active"]=true}},["active_view"]=1}, directories = {} }

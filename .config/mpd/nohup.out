@@ -1,0 +1,120 @@
+
+(wf-dock:28651): Gtk-WARNING **: 22:05:39.083: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:05:39.094 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:05:39.094 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:05:39.094 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:05:39.094 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+Bad position in config file, defaulting to top
+
+(wf-dock:32487): Gtk-WARNING **: 22:22:10.334: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:22:10.350 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:22:10.350 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:22:10.350 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:22:10.350 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+
+(wf-dock:32895): Gtk-WARNING **: 22:23:26.782: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:23:26.799 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:23:26.799 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:23:26.799 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:23:26.799 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+
+(wf-dock:33133): Gtk-WARNING **: 22:23:48.539: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:23:48.559 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:23:48.559 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:23:48.559 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:23:48.559 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+
+(wf-dock:33437): Gtk-WARNING **: 22:24:34.127: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:24:34.139 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:24:34.139 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:24:34.140 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:24:34.140 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+
+(wf-dock:33599): Gtk-WARNING **: 22:24:35.756: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+II 2026-05-19 22:24:35.775 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:24:35.775 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:24:35.775 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:24:35.775 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg
+
+(wf-dock:34561): Gtk-WARNING **: 22:27:37.453: Theme parsing error: gtk-style.css:120:18: The :insensitive pseudo-class is deprecated. Use :disabled instead.
+
+(wf-dock:34561): Gtk-WARNING **: 22:27:37.459: Theme parsing error: gtk.css:68:28: Junk at end of value for background
+
+(wf-dock:34561): Gtk-WARNING **: 22:27:37.459: Theme parsing error: gtk.css:69:39: Junk at end of value for background-color
+II 2026-05-19 22:27:37.474 - [wf-config/src/file.cpp:579] Reading XML configuration options from directory /usr/share/wayfire/metadata/wf-shell
+II 2026-05-19 22:27:37.474 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/background.xml
+II 2026-05-19 22:27:37.474 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/dock.xml
+II 2026-05-19 22:27:37.474 - [wf-config/src/file.cpp:529] Reading XML configuration options from file /usr/share/wayfire/metadata/wf-shell/panel.xml
+Error loading file: /home/eshion/.config/dock-icons/text.svg
+Failed to load icon for any of dev.zed.Zed  wf-ipc-210
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/alacritty.svg
+Error loading file: /home/eshion/.config/dock-icons/firefox.svg

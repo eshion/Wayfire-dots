@@ -1,0 +1,28 @@
+sw_volume: 100
+audio_device_state:1:PipeWire Output
+state: play
+current: 7
+time: 11.542
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:80/听海 - 张惠妹.flac
+1:80/盛夏的果实 - 莫文蔚.flac
+2:80/你的柔情我永远不懂 - 陈琳.flac
+3:80/莫文蔚 - 电台情歌.flac
+4:80/约定 - 周蕙.flac
+5:80/囚鸟 - 彭羚.flac
+6:80/独角戏 - 许茹芸.flac
+7:80/为爱痴狂 - 刘若英.flac
+8:80/至少还有你 - 林忆莲.flac
+9:80/雨蝶 - 李翊君.flac
+10:80/阳光总在风雨后 - 许美静.flac
+11:80/风中有朵雨做的云 - 孟庭苇.flac
+12:80/轻轻的告诉你 - 杨钰莹.flac
+playlist_end

@@ -1,0 +1,111 @@
+/**
+ * Game Launcher Theme for Rofi
+ * Inspired by Fullscreen Poster Grid UI
+ */
+* {
+    /* 核心颜色定义 */
+    bg-col:       #0d1117CC;  /* 深色半透明背景 (CC代表80%不透明度) */
+    bg-sel:       #ffffff11;  /* 选中条目的微微高亮背景 */
+    fg-col:       #a0a0a0;    /* 默认未选中文字颜色 (浅灰) */
+    fg-sel:       #ffffff;    /* 选中文字颜色 (纯白) */
+    accent:       #e83378;    /* 主题强调色 (洋粉色/红色，对齐你图中的高亮框) */
+
+    /* 全局字体设定 (可根据你系统里有的字体修改) */
+    font: "sans-serif bold 11";
+
+    /* 重置默认样式 */
+    background-color: transparent;
+    text-color:       @fg-col;
+    margin:           0;
+    padding:          0;
+    border:           0;
+}
+/* ---------------- 窗口布局 ---------------- */
+window {
+    fullscreen:       true;        /* 开启全屏 */
+    background-color: @bg-col;
+    padding:          40px 60px;   /* 屏幕四周留白 */
+    transparency:     "real";      /* 允许真正的背景透明/模糊 */
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing:  40px;
+}
+
+/* ---------------- 顶部搜索栏 ---------------- */
+inputbar {
+    background-color: transparent;
+    border:           1px solid;
+    border-color:     @accent;
+    border-radius:    8px;
+    padding:          8px 16px;
+    margin:           0px 30% 0px 30%; /* 利用两侧的大 margin 让搜索框居中 */
+    spacing:          10px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       @accent;
+    vertical-align:   0.5;
+}
+
+entry {
+    placeholder:      "Search games...";
+    placeholder-color:#666666;
+    text-color:       @fg-sel;
+    vertical-align:   0.5;
+    blink:            true;
+}
+
+/* ---------------- 游戏网格列表 ---------------- */
+listview {
+    columns:          6;           /* 对应图中的 6 列 */
+    lines:            3;           /* 同屏显示的行数 */
+    spacing:          30px;        /* 每个游戏海报之间的间距 */
+    cycle:            true;
+    dynamic:          true;
+    layout:           vertical;
+    flow:             horizontal;
+    padding:          10px;
+}
+
+/* ---------------- 单个游戏条目 ---------------- */
+element {
+    orientation:      vertical;    /* 图标在上，文字在下 */
+    padding:          15px;
+    border-radius:    12px;        /* 圆角 */
+    border:           2px solid;
+    border-color:     transparent; /* 默认无边框 */
+    background-color: transparent;
+    cursor:           pointer;
+}
+
+/* 选中时的状态 (粉色边框 + 微微发亮的背景) */
+element selected {
+    border-color:     @accent;
+    background-color: @bg-sel;
+}
+
+/* 游戏海报图标 */
+element-icon {
+    size:             300px;       /* 控制海报大小，Rofi 会自动保持图片比例 */
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+    cursor:           inherit;
+}
+
+/* 游戏名称文字 */
+element-text {
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+    margin:           15px 0px 0px 0px; /* 让文字和图片产生间距 */
+    text-color:       inherit;
+    font:             "sans-serif bold 11";
+    cursor:           inherit;
+}
+
+/* 选中时的文字高亮 */
+element-text selected {
+    text-color:       @fg-sel;
+}

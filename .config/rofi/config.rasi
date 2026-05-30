@@ -1,0 +1,9 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+  kb-cancel: "Escape,MouseSecondary";
+}
+
+@theme "/usr/share/rofi/themes/material.rasi"

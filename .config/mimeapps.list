@@ -1,0 +1,5 @@
+[Added Associations]
+application/x-shellscript=dev.zed.Zed.desktop;org.lite_xl.lite_xl.desktop;
+text/plain=dev.zed.Zed.desktop;
+image/jpeg=swappy.desktop;
+image/png=swayimg.desktop;
