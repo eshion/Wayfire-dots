@@ -3,3 +3,4 @@
 .config/mozilla/firefox/
 .config/go/telemetry/
 .config/ibus/bus/
+.config/xfce4/xfconf/xfce-perchannel-xml/
