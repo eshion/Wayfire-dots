@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Output
-state: play
-current: 7
-time: 11.542
-random: 1
+state: pause
+current: 3
+time: 133.494
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -25,4 +25,5 @@ playlist_begin
 10:80/阳光总在风雨后 - 许美静.flac
 11:80/风中有朵雨做的云 - 孟庭苇.flac
 12:80/轻轻的告诉你 - 杨钰莹.flac
+13:凤飞飞 - 追梦人.flac
 playlist_end

@@ -1,38 +1,38 @@
 ##
 # Files
-# mpd_music_dir = "~/Music"  
+# mpd_music_dir = "~/Music"
  lyrics_directory  = ~/.config/ncmpcpp/lyrics
  ncmpcpp_directory  = ~/.config/ncmpcpp
 #mpd_host = "localhost"
  mpd_host = "127.0.0.1"
- mpd_port = "6600"  
- mpd_connection_timeout = "5"  
- mpd_crossfade_time = "5" 
+ mpd_port = "6600"
+ mpd_connection_timeout = "5"
+ mpd_crossfade_time = "5"
  system_encoding = "UTF-8"
- visualizer_fps = 30 
+ visualizer_fps = 30
 
  # Playlist
- playlist_disable_highlight_delay = "0"  
- playlist_display_mode = "columns"  
+ playlist_disable_highlight_delay = "0"
+ playlist_display_mode = "columns"
  playlist_show_remaining_time = "yes"
  show_duplicate_tags = no
 
- browser_display_mode = "columns"  
- autocenter_mode = "yes"  
- fancy_scrolling = "yes"  
- follow_now_playing_lyrics = "yes"  
- display_screens_numbers_on_start = "yes"  
- ignore_leading_the = "yes"  
- lyrics_database = "1"  
- song_columns_list_format = "(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}"  
- colors_enabled = "yes"  
- main_window_color = "white"  
+ browser_display_mode = "columns"
+ autocenter_mode = "yes"
+ fancy_scrolling = "yes"
+ follow_now_playing_lyrics = "yes"
+ display_screens_numbers_on_start = "yes"
+ ignore_leading_the = "yes"
+ lyrics_database = "1"
+ song_columns_list_format = "(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}"
+ colors_enabled = "yes"
+ main_window_color = "white"
  main_window_highlight_color =  "blue"
- header_window_color = "cyan"  
- volume_color = "red"  
- progressbar_color = "cyan"  
- statusbar_color = "white"  
- active_column_color = "cyan"  
+ header_window_color = "cyan"
+ volume_color = "red"
+ progressbar_color = "cyan"
+ statusbar_color = "white"
+ active_column_color = "cyan"
  active_window_border = "blue"
 
 alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
@@ -135,12 +135,21 @@ centered_cursor = "yes"
 display_bitrate = "yes"
 ignore_leading_the = yes
 # enable_window_title = "no"
-follow_now_playing_lyrics = "yes"
 empty_tag_marker = ""
 mouse_support = yes
 
 locked_screen_width_part = 50
 ask_for_locked_screen_width_part = no
-startup_screen = playlist 
+startup_screen = playlist
 startup_slave_screen = visualizer
 startup_slave_screen_focus = no
+
+# 启用自动从网络抓取歌词（按需抓取）
+fetch_lyrics_for_current_song_in_background = "yes"
+
+
+# 将歌词保存在音乐文件同级目录下（推荐）
+store_lyrics_in_song_dir = "yes"
+
+# 指定可用的歌词获取源（支持多源策略）
+lyrics_fetchers = "azlyrics, genius, musixmatch, sing365"
