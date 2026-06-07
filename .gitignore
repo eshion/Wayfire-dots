@@ -91,14 +91,3 @@ pip-delete-this-directory.txt
 target/
 .gradle/
 build/
-
-# ==========================================
-# Go
-# ==========================================
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-bin/
-pkg/
