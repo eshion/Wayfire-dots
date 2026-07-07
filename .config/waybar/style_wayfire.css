@@ -25,7 +25,8 @@ window#waybar {
     background: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
     /*background: #1a1b26;*/
-    color: #ff9e64;
+    /*color: #ff9e64;*/
+    color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
     transition:
@@ -180,7 +181,7 @@ window#waybar {
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     /*background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);*/
-    padding: 0px 6px;
+    padding: 0px 10px;
     margin: 5px 5px 15px 0px;
     border-radius: 19px;
     opacity: 0.8;
@@ -191,6 +192,10 @@ window#waybar {
 #apps:hover {
     /*border-radius: 14px;*/
     background-color: rgba(0, 0, 0, 0.3);
+}
+#workspaces label,
+#apps label {
+    color: #ffffff;
 }
 #taskbar button {
     padding: 0px 5px;
@@ -258,7 +263,8 @@ window#waybar {
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     /*background: #1a1b26;*/
-    color: sandybrown;
+    /*color: sandybrown;*/
+    color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
     transition:
