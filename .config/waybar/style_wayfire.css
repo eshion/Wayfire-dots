@@ -22,7 +22,9 @@ window#waybar {
     margin-right: 5px;
     margin-left: 5px;
     opacity: 0.8;
-    background: #1a1b26;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*background: #1a1b26;*/
     color: #ff9e64;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
@@ -42,8 +44,10 @@ window#waybar {
     padding-left: 8px;
     padding-top: 3px;
     padding-bottom: 3px;
-    opacity: 0.8;
-    background: #1a1b26;
+    /*opacity: 0.8;*/
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*background: #1a1b26;*/
     color: #7dcfff;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
@@ -51,9 +55,11 @@ window#waybar {
         border-radius 0.35s ease,
         background 0.25s ease;
 }
+#hardware:hover,
 #clock:hover {
     border-radius: 14px;
-    background: #1a1b26;
+    background: rgba(0, 0, 0, 0.4);
+    /*background: #1a1b26;*/
 }
 #hardware {
     margin-top: 5px;
@@ -63,8 +69,10 @@ window#waybar {
     padding-left: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-    opacity: 0.8;
-    background: #1a1b26;
+    /*opacity: 0.8;*/
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*background: #1a1b26;*/
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
 }
@@ -167,12 +175,22 @@ window#waybar {
 #taskbar,
 #tray,
 #apps {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
+    /*background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);*/
     padding: 0px 6px;
     margin: 5px 5px 15px 0px;
     border-radius: 19px;
     opacity: 0.8;
+}
+#tray:hover,
+#workspaces:hover,
+#taskbar:hover,
+#apps:hover {
+    /*border-radius: 14px;*/
+    background-color: rgba(0, 0, 0, 0.3);
 }
 #taskbar button {
     padding: 0px 5px;
@@ -235,9 +253,12 @@ window#waybar {
     margin-bottom: 15px;
     margin-right: 5px;
     margin-left: 5px;
-    opacity: 0.8;
-    background: #1a1b26;
-    color: #9ece6a;
+    /*opacity: 0.8;*/
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
+    /*background: #1a1b26;*/
+    color: sandybrown;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
     border-radius: 19px;
     transition:
@@ -246,7 +267,8 @@ window#waybar {
 }
 #custom-launcher:hover {
     border-radius: 14px; /* Oval */
-    background: #1a1b26;
+    background: rgba(0, 0, 0, 0.5);
+    /*background: #1a1b26;*/
 }
 #cava {
     border-radius: 16px;
@@ -304,7 +326,9 @@ tooltip label {
 }
 
 #workspaces {
-    background: #1a1b26;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /*background: #1a1b26;*/
     padding: 0px 6px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -312,7 +336,7 @@ tooltip label {
     border-radius: 19px;
     font-weight: bold;
     font-style: normal;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     font-size: 16px;
     color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 3px 0px;
@@ -324,7 +348,7 @@ tooltip label {
     margin-right: 5px;
     border-radius: 15px;
     color: #c0caf5;
-    background-color: #3b4261;
+    /*background-color: #3b4261;*/
     transition: all 0.3s ease-in-out;
     opacity: 0.8;
 }
@@ -338,8 +362,9 @@ tooltip label {
 }
 
 #workspaces button:hover {
+    background: rgba(255, 255, 255, 0.6);
     color: #ffffff;
-    background: #737aa2;
+    /*background: #737aa2;*/
     border-radius: 15px;
     min-width: 50px;
     opacity: 0.7;
