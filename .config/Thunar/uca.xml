@@ -12,4 +12,27 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon></icon>
+	<name>7z</name>
+	<submenu></submenu>
+	<unique-id>1783145508748931-1</unique-id>
+	<command>foot --title=&quot;7z Extracting...&quot; sh -c &quot;7z x %f -o*; echo &apos;解压完成，2秒后关闭...&apos;; sleep 2&quot;</command>
+	<description>使用 7zip 解压压缩包</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>gnome-log</icon>
+	<name>bookokrat</name>
+	<submenu></submenu>
+	<unique-id>1783146874537918-2</unique-id>
+	<command>foot --title=&quot;%n&quot; sh -c &quot;bookokrat %f&quot;</command>
+	<description>bookokrat 阅读</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
 </actions>
